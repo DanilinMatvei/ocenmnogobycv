@@ -1,0 +1,14 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Main m = new Main();
+        int result = m.subtract(44000, 30000);
+        System.out.println(result);
+        String name = "danilinMatvei";
+        System.out.println("Привет, " + name + "!");
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
